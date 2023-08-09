@@ -1,0 +1,66 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: left;
+  font-size: large;
+  font-weight: 400;
+
+}
+
+/* Brand Container Styles */
+
+.brand-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.brand-name {
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  position:sticky;
+  top: 110px;
+  color:rgb(12, 8, 1);
+}
+.brand-logo {
+  position:relative;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.brand-content {
+  width: 70%;
+}
+
+/* Container Styles */
+
+.brand-container:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.brand-name {
+  margin-top: 10px;
+}
+
+.brand-content p {
+  margin: 0;
+}
